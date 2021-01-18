@@ -6,6 +6,7 @@ Software for a [Raspberry Pi based muon detector system](https://MuonPi.org) usi
 
 This is a software solution for operating a Raspberry Pi mini computer and the u-blox NEO-M8 GNSS module's "timemark" feature together with a plastic scintillator + SiPM-based detector system to detect muons with a time stamping accuracy of up to a 20ns. Therefore, the software has to communicate with the Ublox GPS module through a serial interface using the ubx protocol. The good time accuracy is needed for correlating several independent detector units for the reconstruction of atmospheric muon showers resulting from ultra high-energy cosmic particles impinging on the earth's atmosphere. The software must be easy-to-use and runs in the background while synchronizing accumulated data with a central server.
 
+astest
 ## DOWNLOAD
 
 The latest binaries can be found as Debian packages with patch-notes and other release specific information in the "Releases" folder.
